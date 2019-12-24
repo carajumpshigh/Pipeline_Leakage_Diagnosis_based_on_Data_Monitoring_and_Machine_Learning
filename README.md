@@ -12,30 +12,26 @@ Then, the model above is further optimized considering the geographic distributi
 
 
 ## Functions Description
-	| Function | Model | File | Introduction |
-    | --- | --- | --- | --- |
-    |create_assist_date(datestart=None, dateend=None) |	1 |	function_1.py |	Generate date list |
-get_mid(smp_address)	1	function_1.py	Collect unique MID list
-process_data(date, sample_point)	1	function_1.py	Generate and plot daily trend of single sample point(hour based)
-dtw_distance(ts_a, ts_b, d=lambda x, y: abs(x - y), mww=10000)	1	function_1.py	DTW
-similarity_matrix_1(d_list, sample_point)	1	function_1.py	Calculate distance matrix for the first round of clustering
-spectral_clustering_1(s_matrix, points, k)	1	function_1.py	The first round of spectral clustering
-daily_trend_mode_1(k, train, d_list, sample_point)	1	function_1.py	Generate daily trend mode for the clusters(for each sample point)
-similarity_matrix_2(mode_list)	1	function_1.py	Calculate distance matrix for the second round of clustering
-spectral_clustering_2(s_matrix, points, k)	1	function_1.py	The second round of spectral clustering
-daily_trend_mode_2(k, train, mode_list_1)	1	function_1.py	Generate daily trend mode for the clusters(for all sample points)
-train(k, date_range, sample_point)	1	main_1.py	Train the model to get mode list
-match(date, sample_point, mode_list)	1	main_1.py	Match daily trend with modes
-detection(date, sample_point, mode_list, risky_mode)	1	main_1.py	Anomaly Detection
-get_location()	2	function_2.py	Get longitude and latitude based on address of accidents
-mhd_distance(a, b)	2	function_2.py	Calculate manhattan distance
-graphmove(a)	2	function_2.py	Calculate move matrix for page rank
-firstpr(c)	2	function_2.py	Set initial pr
-cal_pr(p, m, v)	2	function_2.py	Calculate pr
-pagerank(data)	2	function_2.py	Excute Page Rank algorithm
-train_rp(k, represent_points, acc_data)	2	function_2.py	Train the model to get mode list for represent points
-train_cluster(k, represent_sp_mid, sp_cluster, acc_data)	2	function_2.py	Train the model to get mode list for each cluster
-	| Name | Definition |
-	| ---- | ---------- |
-	| Positive | Greater than zero |
-	| Negative | Less than zero 
+| Function                                                       | Model | File          | Introduction                                                      |
+|----------------------------------------------------------------|-------|---------------|-------------------------------------------------------------------|
+| create_assist_date(datestart=None, dateend=None)               | 1     | function_1.py | Generate date list                                                |
+| get_mid(smp_address)                                           | 1     | function_1.py | Collect unique MID list                                           |
+| process_data(date, sample_point)                               | 1     | function_1.py | Generate and plot daily trend of single sample point(hour based)  |
+| dtw_distance(ts_a, ts_b, d=lambda x, y: abs(x - y), mww=10000) | 1     | function_1.py | DTW                                                               |
+| similarity_matrix_1(d_list, sample_point)                      | 1     | function_1.py | Calculate distance matrix for the first round of clustering       |
+| spectral_clustering_1(s_matrix, points, k)                     | 1     | function_1.py | The first round of spectral clustering                            |
+| daily_trend_mode_1(k, train, d_list, sample_point)             | 1     | function_1.py | Generate daily trend mode for the clusters(for each sample point) |
+| similarity_matrix_2(mode_list)                                 | 1     | function_1.py | Calculate distance matrix for the second round of clustering      |
+| spectral_clustering_2(s_matrix, points, k)                     | 1     | function_1.py | The second round of spectral clustering                           |
+| daily_trend_mode_2(k, train, mode_list_1)                      | 1     | function_1.py | Generate daily trend mode for the clusters(for all sample points) |
+| train(k, date_range, sample_point)                             | 1     | main_1.py     | Train the model to get mode list                                  |
+| match(date, sample_point, mode_list)                           | 1     | main_1.py     | Match daily trend with modes                                      |
+| detection(date, sample_point, mode_list, risky_mode)           | 1     | main_1.py     | Anomaly Detection                                                 |
+| get_location()                                                 | 2     | function_2.py | Get longitude and latitude based on address of accidents          |
+| mhd_distance(a, b)                                             | 2     | function_2.py | Calculate manhattan distance                                      |
+| graphmove(a)                                                   | 2     | function_2.py | Calculate move matrix for page rank                               |
+| firstpr(c)                                                     | 2     | function_2.py | Set initial pr                                                    |
+| cal_pr(p, m, v)                                                | 2     | function_2.py | Calculate pr                                                      |
+| pagerank(data)                                                 | 2     | function_2.py | Excute Page Rank algorithm                                        |
+| train_rp(k, represent_points, acc_data)                        | 2     | function_2.py | Train the model to get mode list for represent points             |
+| train_cluster(k, represent_sp_mid, sp_cluster, acc_data)       | 2     | function_2.py | Train the model to get mode list for each cluster                 |

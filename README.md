@@ -1,8 +1,6 @@
 # Pipeline Leakage Diagnosis based on Data Monitoring and Machine Learning
 
-For undergraduate thesis
-
-Interdiscipline project in civil engineering & mathematics
+Interdiscipline project in civil engineering & mathematics for undergraduate thesis
 
 ## Introduction:
 

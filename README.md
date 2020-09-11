@@ -13,10 +13,10 @@ Then, the model above is further optimized considering the geographic distributi
 
 ## Leakage Diagnosis Model
 
-- Double-Layer CLustering Model
+**- Double-Layer CLustering Model**
 ![Double-Layer CLustering Model](https://github.com/carajumpshigh/Pipeline_Leakage_Diagnosis_based_on_Data_Monitoring_and_Machine_Learning/blob/master/Images/Leakage%20Diagnosis%20Model.png)
 
-- Optimized Model with Geographic Info
+**- Optimized Model with Geographic Info**
 ![Optimized Model with Geographic Info](https://github.com/carajumpshigh/Pipeline_Leakage_Diagnosis_based_on_Data_Monitoring_and_Machine_Learning/blob/master/Images/Leakage%20Diagnosis%20Model%20with%20Spatial%20Info.png)
 
 ## Functions Description

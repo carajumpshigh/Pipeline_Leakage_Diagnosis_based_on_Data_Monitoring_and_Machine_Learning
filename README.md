@@ -12,17 +12,23 @@ This project first studies the combo pipeline network leakage diagnosis method a
 
 Then, the model above is further optimized considering the geographic distribution of accidents. A double-layer anomaly detection model based on Page Rank algorithm and risk cluster analysis is proposed. The model is tested by the 2015 example, which further improves the flexibility and work efficiency of the leak detection model.
 
+
+
 ## Leakage Diagnosis Model
 
 - **Double-Layer CLustering Model**
 ![Double-Layer CLustering Model](https://github.com/carajumpshigh/Pipeline_Leakage_Diagnosis_based_on_Data_Monitoring_and_Machine_Learning/blob/master/Images/Leakage%20Diagnosis%20Model.png)
 
+
 Most of the compute load comes from calculating the DTW distances between each of the daily pressure trend. With double-layer clustering applied, 98% of the total calculation is saved, which improves the efficency greatly.
 
-<img align="center" src="https://github.com/carajumpshigh/Pipeline_Leakage_Diagnosis_based_on_Data_Monitoring_and_Machine_Learning/blob/master/Images/Calculation%20Comparison.png" width="300" height="100">
+<align="center"><img src="https://github.com/carajumpshigh/Pipeline_Leakage_Diagnosis_based_on_Data_Monitoring_and_Machine_Learning/blob/master/Images/Calculation%20Comparison.png" width="300" height="100">
+
 
 - **Optimized Model with Geographic Info**
 ![Optimized Model with Geographic Info](https://github.com/carajumpshigh/Pipeline_Leakage_Diagnosis_based_on_Data_Monitoring_and_Machine_Learning/blob/master/Images/Leakage%20Diagnosis%20Model%20with%20Spatial%20Info.png)
+
+
 
 ## Functions Description
 | Function                                                       | Model | File          | Introduction                                                      |

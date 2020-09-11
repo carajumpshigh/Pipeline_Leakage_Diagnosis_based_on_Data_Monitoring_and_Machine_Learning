@@ -2,7 +2,7 @@
 
 Interdiscipline project in civil engineering & mathematics for undergraduate thesis
 
-Shanghai Institute of Disaster Prevention and Relief & Tongji University
+*Shanghai Institute of Disaster Prevention and Relief & Tongji University*
 
 ## Introduction
 

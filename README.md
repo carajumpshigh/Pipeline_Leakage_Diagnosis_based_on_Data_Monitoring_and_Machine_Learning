@@ -22,7 +22,7 @@ Then, the model above is further optimized considering the geographic distributi
 
 Most of the compute load comes from calculating the DTW distances between each of the daily pressure trend. With double-layer clustering applied, 98% of the total calculation is saved, which improves the efficency greatly.
 
-<align="center"><img src="https://github.com/carajumpshigh/Pipeline_Leakage_Diagnosis_based_on_Data_Monitoring_and_Machine_Learning/blob/master/Images/Calculation%20Comparison.png" width="300" height="100">
+<p align="center"><img src="https://github.com/carajumpshigh/Pipeline_Leakage_Diagnosis_based_on_Data_Monitoring_and_Machine_Learning/blob/master/Images/Calculation%20Comparison.png" width="300" height="100">
 
 
 - **Optimized Model with Geographic Info**

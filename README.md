@@ -19,7 +19,7 @@ With the lifeline pipeline network continuously extending and playing an increas
 ## Leakage Diagnosis Model
 
 - **Double-Layer CLustering Model**
-![Double-Layer CLustering Model](https://github.com/carajumpshigh/Pipeline_Leakage_Diagnosis_based_on_Data_Monitoring_and_Machine_Learning/blob/master/Images/Leakage%20Diagnosis%20Model.png)
+![Double-Layer CLustering Model](https://github.com/carajumpshigh/Pipeline_Leakage_Diagnosis_based_on_Data_Monitoring_and_Machine_Learning/blob/master/Images/Leakage%20Diagnosis%20Model%20with%20Spatial%20Info.png)
 
 
 Most of the compute load comes from calculating the DTW distances between each of the daily pressure trend. With double-layer clustering applied, **98%** of the total calculation is saved, which improves the efficency greatly.
@@ -28,7 +28,7 @@ Most of the compute load comes from calculating the DTW distances between each o
 
 
 - **Optimized Model with Geographic Info**
-![Optimized Model with Geographic Info](https://github.com/carajumpshigh/Pipeline_Leakage_Diagnosis_based_on_Data_Monitoring_and_Machine_Learning/blob/master/Images/Leakage%20Diagnosis%20Model%20with%20Spatial%20Info.png)
+![Optimized Model with Geographic Info](https://github.com/carajumpshigh/Pipeline_Leakage_Diagnosis_based_on_Data_Monitoring_and_Machine_Learning/blob/master/Images/Leakage%20Diagnosis%20Model.png)
 
 
 

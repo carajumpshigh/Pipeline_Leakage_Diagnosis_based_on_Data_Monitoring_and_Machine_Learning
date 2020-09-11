@@ -11,6 +11,11 @@ This project first studies the combo pipeline network leakage diagnosis method a
 
 Then, the model above is further optimized considering the geographic distribution of accidents. A double-layer anomaly detection model based on Page Rank algorithm and risk cluster analysis is proposed. The model is tested by the 2015 example, which further improves the flexibility and work efficiency of the leak detection model.
 
+## Leakage Diagnosis Model
+
+![Double-Layer CLustering Model](Images/Leakage Diagnosis Model.jpeg)
+
+![Optimized Model with Geographic Info](Images/Leakage Diagnosis Model with Spatial Info.jpeg)
 
 ## Functions Description
 | Function                                                       | Model | File          | Introduction                                                      |

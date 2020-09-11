@@ -13,9 +13,9 @@ Then, the model above is further optimized considering the geographic distributi
 
 ## Leakage Diagnosis Model
 
-![Double-Layer CLustering Model](Images/Leakage Diagnosis Model.jpeg)
+![Double-Layer CLustering Model](Images/Leakage Diagnosis Model.png)
 
-![Optimized Model with Geographic Info](Images/Leakage Diagnosis Model with Spatial Info.jpeg)
+![Optimized Model with Geographic Info](Images/Leakage Diagnosis Model with Spatial Info.png)
 
 ## Functions Description
 | Function                                                       | Model | File          | Introduction                                                      |
